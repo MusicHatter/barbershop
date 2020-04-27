@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Бородинский - карточка товара</title>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    
+    <body class="inner-page">
+        <header class="main-header">
+            <nav class="navigation">
+                <div class="navigation-wrapper">
+                    <div class="container">
+                        <a href="index.html"><img class="navigation-logo" src="img/logo-inner.svg" width="111" height="24" alt="Логотип барбершопа Бородинский"></a>
+                        <ul class="navigation-list">
+                            <li><a href="index.html">Информация</a></li>
+                            <li><a href="index.html">Новости</a></li>
+                            <li><a href="price.html">Прайс-лист</a></li>
+                            <li class="navigation-page-current current-page"><a>Магазин</a></li>
+                            <li><a href="#contact-id">Контакты</a></li>        
+                        </ul>
+                        <ul class="user-action-list">
+                            <li><a class="user-link" href="#">Войти</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container">
+            <h1>Набор для путешесвий "Baxter of California"</h1>
+            
+            <ul class="page-list">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="barbershop-shop.html">Магазин</a></li>
+                <li><a href="barbershop-shop.html">Средства для ухода</a></li>
+                <li class="current-page">Набор для путешесвий "Baxter of California"</li>
+            </ul>
+
+            <div class="catalog-columns">
+                <section class="images">
+                    <h2 class="visually-hidden">Изображения товара</h2>
+                    <p class="images-main">
+                        <img src="img/full-kit.jpg" widht="460" height="498" alt="Изображение всего набора">
+                    </p>
+                    <ul class="images-list">
+                        <li>
+                            <img src="img/photo1.jpg" widht="140" height="149" alt="Фотография набора">
+                        </li>
+                        <li>
+                            <img src="img/photo2.jpg" widht="140" height="149" alt="Фотография набора">
+                        </li>
+                        <li>
+                            <img src="img/full-kit.jpg" widht="140" height="149" alt="Фотография набора">
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="about-product">
+                    <h2 class="visually-hidden">Описание товара</h2>
+                    <div class="about-product-info">
+                        <p class="product-availability">Есть в наличии</p>
+                        <p class="product-articles">Артикул: Dexter-ae</p>
+                    </div>
+                    <p class="product-description">Travel kit - необходимый аксессуар
+                        во время любого путешествия, в аккуратной кожанной сумке находится все,
+                        что нужно для бритья и ухода за кожей во время рабочей поездки
+                        или отдыха: средство для умывания, увлажняющий крем, крем для 
+                        бритья, крем после бритья, шампунь. Набор также может стать
+                        отличным подарком.
+                    </p>
+                    <div class="product-price">
+                        <p class="cost">2 900 р</p>
+                        <a class="button" href="#">Купить</a>
+                    </div>
+                    <h3>В набор входят:</h3>
+                    <ul class="composition-list">
+                        <li>Средство для умывания (50 мл)</li>
+                        <li>Увлажняющий крем (50 мл)</li>
+                        <li>Крем для бритья (50 мл)</li>
+                        <li>Крем после бритья, шампунь (50 мл)</li>
+                        <li>Удобная кожаная комиетичка</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container">
+                <p class="footer-contact" id="contact-id">
+                    Барбершоп "Кузьминский"
+                    <br> Адрес: Г. Чебоксары, ул. Кукушкина, д. Колотушкина
+                    <br> <a class="open-map" href="#">Как нас найти?</a>
+                    <br> Телефон: 8(800)555-35-35
+                </p>
+                <div class="footer-networks">
+                    <b>Давайте дружить!</b>
+                    <ul class="footer-networks-list">
+                        <li>
+                            <a class="button-networks button-networks-vk" href="#"><span class="visually-hidden">Вконтакте</span>
+                            </a>
+                        </li>     
+                        <li>
+                            <a class="button-networks button-networks-facebook" href="#"><span class="visually-hidden">Фейсбук</span></a>
+                        </li>
+                        <li>
+                            <a class="button-networks button-networks-instagram" href="#"><span class="visually-hidden">Инстаграм</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="footer-copyright">
+                    <b>Разработано:</b>
+                    <a class="button" href="#">Кузьмин К.С.</a>
+                </p>
+            </div>
+        </footer>
+
+        <section class="modal modal-login">
+            <h2>Личный кабинет</h2>
+            <p class="modal-description">Введите пожалуйста свой логин и пароль</p>
+            <form class="user-logging" method="GET" action="#">
+                <p>
+                    <label class="visually-hidden" for="modal-login-input">Логин</label>
+                    <input class="modal-icon-login" id="modal-login-input" type="text" name="login" placeholder="Логин">
+                </p>
+                <p>
+                    <label class="visually-hidden" for="modal-login-password">Пароль</label>
+                    <input class="modal-icon-password" id="modal-login-password" type="password" name="password" placeholder="Пароль">
+                </p>
+                <p class="login-password-info">
+                    <label>
+                        <input type="checkbox" class="visually-hidden" name="remember">
+                        <span class="checkbox-indicator"></span>
+                        Запомните меня
+                    </label>
+                    <a class="login-password-restore" href="#">Я забыл пароль!</a>
+                </p>
+                <button type="submit" class="button">Войти</button>
+            </form>
+            <button class="modal-close modal-close-login" type="button"><span class="visually-hidden">Закрыть окно</span></button>
+        </section>
+
+        <section class="modal modal-map">
+            <h2 class="visually-hidden">Карта местности</h2>
+            <p>
+                <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/?ll=37.740653%2C55.728154&source=wizgeo&utm_medium=mapframe&utm_source=maps&z=16" style="color:#eee;font-size:12px;position:absolute;top:14px;">Карта Москвы с улицами и номерами домов онлайн — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CKV1VQ0d" width="780" height="560" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                <img src="img/map.jpg" width="780" height="560" alt="Г. Чебоксары, ул. Кукушкина, д. Колотушкина">
+            </p>
+            <button class="modal-close modal-close-map" type="button"><span class="visually-hidden">Закрыть окно</span></button>
+        </section>
+
+        <script src="js/main.js"></script>
+    </body>
+</html> 
